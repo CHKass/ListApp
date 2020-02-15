@@ -1,0 +1,175 @@
+body {
+	text-decoration:none;
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	font-size:16px;
+}
+* {
+	box-sizing:border-box;
+}
+p {
+	font-size:1rem;
+	font-weight:300;
+	margin:0;
+}
+ul {
+	/*list-style-type:disc;*/
+	color:#666;
+	width:100%;
+	margin-top:1.5rem;
+	margin-bottom:2rem;
+	padding-left:0px;
+}
+li {
+	display:block;
+	font-size:1rem;
+	line-height:1.5rem;
+	color:#2d5078;
+	text-decoration:none;
+	padding:4px 0px 12px 0px; 
+	margin-bottom:0.8rem;
+	border-bottom:solid 1px #1b6f92;
+}
+.placeholder {
+	font-size:1rem;
+	font-weight:300;
+	color:#999;
+}
+.container {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.content-area {
+	max-width:640px;
+	border-radius:6px;
+	padding:20px;
+	background-color:#f0f0f0;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.top-head {
+	font-family: 'Raleway', sans-serif;
+	font-size:1.2rem;
+	font-weight:500;
+	color:#16609f;
+	padding-bottom:0.25rem;
+}
+.input-box {
+	width:60%;
+	font-size:1rem;
+	font-weight:300;
+	border:solid 1px #ccc;
+	border-radius:4px;
+	padding:6px;
+	color:red;
+	height:40px;
+}
+
+.button {
+	display:block;
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	font-size:1rem;
+	font-weight:300;
+	color:#fff;
+	width:100px;
+	height:30px;
+	border:solid 1px #f8c702;
+	border-radius:4px;
+	padding:2px 4px 2px 4px;
+	background-color:#df910a;
+	margin-top:6px;
+	margin-left:50px;
+}
+.edit-me {
+	display:inline-block;
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	font-size:1rem;
+	font-weight:300;
+	color:#fff;
+	width:60px;
+	height:30px;
+	border:solid 1px #f8c702;
+	border-radius:4px;
+	padding:2px 4px 2px 4px;
+	background-color:#1b6f92;
+	margin-top:-4px;
+	margin-left:20px;
+}
+.delete-me {
+	display:inline-block;
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	font-size:1rem;
+	font-weight:300;
+	color:#fff;
+	text-align:center;
+	vertical-align:middle;
+	width:60px;
+	height:30px;
+	border:solid 1px #f8c702;
+	border-radius:4px;
+	padding:2px 4px 2px 4px;
+	background-color:#8e0b05;
+	margin-top:-4px;
+	margin-left:20px;
+}
+.butts {
+	display:inline-block;
+	float:right;
+}
+.del-button {
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	font-size:1rem;
+	font-weight:300;
+	color:#f90a2c;
+	border:solid 2px #f78750;
+	border-radius:4px;
+	padding:2px 4px 2px 4px;
+	background-color:#f5b596;
+	margin-right:30px;
+}
+.sub-head {
+	font-family: 'Raleway', sans-serif;
+	font-size:1rem;
+	font-weight:300;
+	color:#333;
+	padding-top:1rem;
+	padding-bottom:0.5rem;
+}
+@media screen and (max-width: 600px) {
+	li {
+		padding:4px 0px 8px 0px;
+	}
+	.button {
+		font-size:0.7rem;
+		width:70px;
+		height:25px;
+		margin-top:8px;
+		margin-left:10px;
+	}
+	.edit-me, .delete-me {
+		font-size:0.7rem;
+		width:50px;
+		height:25px;
+		margin-top:-5px;
+		margin-left:10px;
+	}
+} 
+@media screen and (max-width: 400px) {
+	li {
+		font-size:.8rem;
+		line-height:1rem;
+		padding:4px 0px 6px 0px;
+	}
+	.edit-me, .delete-me {
+		font-size:0.6rem;
+		width:40px;
+		height:20px;
+		margin-top:-3px;
+	}
+} 
