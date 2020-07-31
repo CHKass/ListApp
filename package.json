@@ -16,5 +16,8 @@
     "mongodb": "^3.5.2",
     "nodemon": "^2.0.2",
     "sanitize-html": "^1.21.1"
+  },
+  "devDependencies": {
+    "dot-prop": "^5.2.0"
   }
 }
